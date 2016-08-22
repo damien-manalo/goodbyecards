@@ -1,2 +1,2 @@
 # goodbyecards
-CSSI Technical Practive Problem 1 || 
+CSSI Technical Practice || Problem 1: Going Away Cards 
