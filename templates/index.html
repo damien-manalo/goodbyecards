@@ -5,7 +5,31 @@
   </head>
   
   <body>
-  		<p>To: {{receiver}}</p>
-  		<p>{{message}}</p>
+  		<h1>CSSI Going Away Cards</h1>
+	  	<div id="form">	
+	  		<form method="post">
+	  			<h4>What's your name?</h4>
+	  				<input type="text" name="name" autofocus="autofocus" required="required">
+	  				<p id="noName">{{alert}}</p>
+	  				<input type="submit">
+	  		</form>			
+	  			<br>
+	  		<form method="post">	
+	  			<h4>Don't see your name?</h4>
+	  				<p>Type it below</p>
+	  				<input type="text" name="newName" autofocus="autofocus" required="required">
+	  				<input type="submit">
+	  		</form<>
+	  	</div>
   </body>
+
+  <style>
+  		h1{
+  			text-align: center;
+  		}
+  		#form{
+  			text-align: center;
+  		}
+
+  </style>
 </html>
